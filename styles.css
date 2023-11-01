@@ -107,4 +107,7 @@ form h3{
     h3{
         color: #171717;
     }
+    .botonsiguiente, .botonsiguiente2{
+        position: unset;
+    }
 }

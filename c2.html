@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>EXPO</title>
+    <style>
+        #targetInf, #targetConst, #targetElec{
+            color: #171717;
+        }
+        .fondo {
+            background-color: rgb(255, 255, 255);
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+
+        .rectanguloarriba {
+            background-color: #391fe0;
+            background: linear-gradient(to bottom, rgba(57, 31, 224, 1) 50%, rgba(57, 31, 224, 0));
+            width: 100%;
+            padding: 95px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            box-sizing: border-box;
+        }
+
+        .rectangulopreguntas {
+            background-color: #010101;
+            width: 400px;
+            padding: 20px;
+            border-radius: 10px;
+            box-sizing: border-box;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);}
+
+        .logotec{
+         top: 0px;
+         left: -60px;
+         position: absolute;
+         width: 20px;
+         height: 20px;}
+
+        form{
+        height: 985px;
+        width: 600px;
+        background-color: rgba(255, 255, 255, 0.13);
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 78%;
+        left: 50%;
+        border-radius: 10px ;
+        backdrop-filter: blur(10px);
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+        padding: 50px 35px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;}
+
+        .botonsiguiente, .botonsiguiente2{
+  background-color: #046f0b; 
+  color: rgba(18, 115, 3, 0.819); 
+  border: none; 
+  border-radius: 10px;
+  padding: 5px 10px; 
+  cursor: pointer;
+  font-size: 14px; 
+  position: absolute; 
+  top: 94%; 
+  right: 20px;}
+
+    form * {
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 0.8); /* Opacidad ajustada */
+    letter-spacing: 0.8px;
+    outline: none;
+    border: none;
+    font-size: 28px; /* Tamaño de fuente ajustado */}
+    
+    form h3{
+        font-size: 40px;
+        font-weight: bolder;
+        line-height: 37px;
+        text-align: center;
+    }
+
+    .radio-button {
+  transform: scale(1.9); /* Ajusta el valor para cambiar el tamaño */
+}
+    </style>
+</head>
+
+<body>
+    <div class="fondo"></div>
+    <div class="rectanguloarriba">
+        <div class="logotec"><img src="C:\Users\franc\OneDrive\Escritorio\COELGIO\EXPO\Imagenees\Logo tec\logo-removebg-preview.png"></div>
+    </div>
+
+    <form onsubmit="return false">
+<h3>CUESTIONARIO</h3>
+        10. ¿Como te sientes al experimentar con circuitos?
+        </br>
+        <input type="radio" name="radio10" id="radio31" value="Es interesante pero no estoy seguro">Es interesante pero no estoy seguro
+        </br>
+        <input type="radio" name="radio10" id="radio32" value="No me seinto atraido/a por la electronica y sus componentes">No me seinto atraido/a por la electronica y sus componentes
+        </br>
+        <input type="radio" name="radio10" id="radio33" value="Me encanta explorar como funcionan y crear mis propios circuitos">Me encanta explorar como funcionan y crear mis propios circuitos
+        </br>
+        </br>
+    
+        11. ¿Cual es tu hablidad para el uso de computadoras y telefonos?
+        </br>
+        <input type="radio" name="radio11" id="radio34" value="Alta, tengo gran facilidad y estoy informado/a">Alta, tengo gran facilidad y estoy informado/a
+        </br>
+        <input type="radio" name="radio11" id="radio35" value="Media, tengo conocimientos basicos del mismo">Media, tengo conocimientos basicos del mismo
+        </br>
+        <input type="radio" name="radio11" id="radio36" value="Baja, pero estoy abierto/a a desarrollarlas aun mas">Baja, pero estoy abierto/a a desarrollarlas aun mas
+        </br>
+        </br>
+    
+        12. ¿Te sentis libre a la hora de diseñar?
+        </br>
+        <input type="radio" name="radio12" id="radio37" value="Si, es algo que disfruto de hacer">Si, es algo que disfruto de hacer
+        </br>
+        <input type="radio" name="radio12" id="radio38" value="No mucho, preferiria hacer otra cosa">No mucho, preferiria hacer otra cosa
+        </br>
+        <input type="radio" name="radio12" id="radio39" value="No, no me siento comodo/a al hacerlo">No, no me siento comodo/a al hacerlo
+        </br>
+        </br>
+    
+        13. ¿Te gustaria diseñar y construir tu propio proyecto electronico?
+        </br>
+        <input type="radio" name="radio13" id="radio40" value="Si, me genera mucho entusiasmo">Si, me genera mucho entusiasmo
+        </br>
+        <input type="radio" name="radio13" id="radio41" value="Realmente me da igual">Realmente me da igual
+        </br>
+        <input type="radio" name="radio13" id="radio42" value="No, preferiria hacer algo mas de mi interes">No, preferiria hacer algo mas de mi interes
+        </br>
+        </br>
+
+        14. ¿Que actividad te hace sentir mas emocionado/a o feliz?
+        </br>
+        <input type="radio" name="radio14" id="radio43" value="Informarme de como hacer paginas web">Informarme de como hacer paginas web
+        </br>
+        <input type="radio" name="radio14" id="radio44" value="Hacer placas y experimentar con maquinas para las mismas">Hacer placas y experimentar con maquinas para las mismas
+        </br>
+        <input type="radio" name="radio14" id="radio45" value="Hacer planos virtuales o fisicos">Hacer planos virtuales o fisicos
+        </br>
+        </br>  
+    
+        15. A partir de lo visto en el colegio, ¿Que especialidad te interesa mas?
+        </br>
+        <input type="radio" name="radio15" id="radio46" value="Informatica">Informatica
+        </br>
+        <input type="radio" name="radio15" id="radio47" value="Electronica">Electronica
+        </br>
+        <input type="radio" name="radio15" id="radio48" value="Construcciones">Construcciones
+        </br>
+        </br>
+        
+        <div id="botonsiguiente2" class="botonsiguiente2">
+            <li>Siguiente</li>
+         </div>
+        <script src="./main2.js"></script>
+     </form>
+
+</html>

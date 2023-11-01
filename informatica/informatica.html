@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+  
+    <style>
+        .rectangulo {
+            height: 600px;
+            width: 1100px;
+            background-color: rgba(255, 255, 255, 0.13);
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 52%;
+            left: 50%;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+            padding: 50px 35px;
+            z-index: 1; /* Coloca el rectángulo por debajo de logotec */
+        }
+
+        .logotec {
+            top: 0px;
+            left: -60px;
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            z-index: 2; /* Coloca logotec encima de rectanguloarriba */
+        }
+
+        .rectanguloarriba {
+            background-color: #391fe0;
+            background: linear-gradient(to bottom, rgba(57, 31, 224, 1) 50%, rgba(57, 31, 224, 0));
+            width: 100%;
+            padding: 95px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            box-sizing: border-box;
+        }
+        
+        h1{
+            font-size: 50px; 
+            font-weight: bold; 
+            color: white;
+        }
+ 
+        .texto1{
+            font-size: 23px;
+            font-weight: bolder;
+            color: black;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding-right: 120px;
+            padding-left: 120px;
+           
+        }
+
+        .imagen1{
+           display: flex;
+           justify-content: center; /* Centrar horizontalmente */
+           align-items: center; /* Centrar verticalmente */
+           height: 100%; /* Para que ocupe todo el espacio vertical del rectángulo */
+           width: 100%; /* Para que ocupe todo el espacio horizontal del rectángulo */
+           margin-top: -16%;
+           margin-left: -190px;
+        }
+
+        .imagen2{
+        position: absolute;
+        height: 20;
+        width: 20;
+        top: 507px;
+        right: 230px;
+        }
+            
+
+    </style>
+
+</head>
+
+<body>
+    
+    <div class="logotec"><img src="C:\Users\franc\OneDrive\Escritorio\COELGIO\EXPO\Imagenees\Logo tec\logo-removebg-preview.png"></div>
+    <div class="rectanguloarriba"></div>
+    <div class="rectangulo">
+        <center><h1>INFORMATICA</h1></center>
+        <div class="texto1">La especialidad de informática en una escuela de educación técnica se centra en proporcionar a los estudiantes habilidades y conocimientos especializados en tecnología de la información. Esto incluye programación, desarrollo de software, redes, sistemas operativos y otras áreas relacionadas. Los estudiantes aprenden a diseñar, implementar y mantener soluciones tecnológicas, así como a solucionar problemas informáticos. También se les enseña sobre seguridad cibernética y gestión de proyectos. Esta especialidad prepara a los estudiantes para carreras en desarrollo de software, administración de sistemas, análisis de datos y otros roles relacionados con la informática.</div>
+
+        <div class="imagen1"><img src="C:\Users\franc\OneDrive\Escritorio\COELGIO\EXPO\Imagenees\pagina espécialidades\info2.png"></div>
+        
+        <div class="imagen2"><img src="C:\Users\franc\OneDrive\Escritorio\COELGIO\EXPO\Imagenees\pagina espécialidades\info1.png" width="275" height="183" ></div>
+        
+    </div>
+</body>
+
+</html>
+

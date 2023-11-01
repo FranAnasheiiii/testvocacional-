@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+  
+    <style>
+        .rectangulo {
+            height: 600px;
+            width: 1100px;
+            background-color: rgba(255, 255, 255, 0.13);
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 52%;
+            left: 50%;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+            padding: 50px 35px;
+            z-index: 1; /* Coloca el rectángulo por debajo de logotec */
+        }
+
+        .logotec {
+            top: 0px;
+            left: -60px;
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            z-index: 2; /* Coloca logotec encima de rectanguloarriba */
+        }
+
+        .rectanguloarriba {
+            background-color: #391fe0;
+            background: linear-gradient(to bottom, rgba(57, 31, 224, 1) 50%, rgba(57, 31, 224, 0));
+            width: 100%;
+            padding: 95px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            box-sizing: border-box;
+        }
+
+        h1{
+            font-size: 50px; 
+            font-weight: bold; 
+            color: white;
+        }
+
+        .texto1{
+            font-size: 23px;
+            font-weight: bolder;
+            color: black;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding-right: 120px;
+            padding-left: 120px;
+           
+        }
+
+        .imagen1{
+           display: flex;
+           justify-content: center; /* Centrar horizontalmente */
+           align-items: center; /* Centrar verticalmente */
+           width: 275;
+           height: 183;
+           margin-top: 1%;
+           margin-left: -415px;
+        }
+
+        .imagen2{
+        position: absolute;
+        height: 20;
+        width: 20;
+        top: 512px;
+        right: 230px;
+        }
+    </style>
+
+</head>
+
+<body>
+   
+    <div class="logotec"><img src="C:\Users\franc\OneDrive\Escritorio\COELGIO\EXPO\Imagenees\Logo tec\logo-removebg-preview.png"></div>
+    <div class="rectanguloarriba"></div>
+    <div class="rectangulo">
+        <center><h1>CONSTRUCCIONES</h1></center>
+        <div class="texto1">La especialidad de construcciones en una escuela de educación técnica se enfoca en proporcionar a los estudiantes habilidades y conocimientos especializados en el ámbito de la construcción. Esto incluye el estudio de materiales de construcción, técnicas de edificación, planificación de proyectos, lectura de planos, normativas de seguridad y gestión de obras. Los estudiantes adquieren competencias prácticas a través de proyectos reales, lo que les permite aplicar lo aprendido en situaciones reales de trabajo. Además, se fomenta el trabajo en equipo y la creatividad en la resolución de problemas constructivos. Esta especialidad prepara a los estudiantes para desempeñarse en diversos roles dentro de la industria de la construcción, como arquitectos, ingenieros civiles, supervisores de obra, entre otros.</div>
+ 
+        <div class="imagen1"><img src="C:\Users\franc\OneDrive\Escritorio\COELGIO\EXPO\Imagenees\pagina espécialidades\constru1.jpg" width="275" height="183"></div>
+        
+        <div class="imagen2"><img src="C:\Users\franc\OneDrive\Escritorio\COELGIO\EXPO\Imagenees\pagina espécialidades\constru2.jpg" width="275" height="183" ></div>
+
+    </div>
+</body>
+
+</html>
